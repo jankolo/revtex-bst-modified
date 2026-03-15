@@ -1,7 +1,7 @@
 # License information
 The bibtex style file (.bst) in this repository has been derived from the original file `apsrev4-2.bst`, which is part of the revtex latex package obtainable at https://ctan.org/tex-archive/macros/latex/contrib/revtex and distributed under the LaTeX Project Public License. 
 
-The file has been modified to include article titles in the bibliography by default, and to print them in gray color. 
+The file has been modified to include article titles in the bibliography by default, as well as print first integer number of of authors. Also do this in case of "incollection" items. 
 
 # Usage
 Include the `myapsrev4-2.bst` file in the main directory of your Latex project and specify it as the bibliography style with the Latex command `\bibliographystyle{apsrev4-2}`, see the example below. 
