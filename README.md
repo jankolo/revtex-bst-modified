@@ -46,4 +46,4 @@ The citation in the bibliography appears with the article title formatted in gra
 ```
 
 #### Compiled pdf output:
-![Example output](doc/res/example.png)
+![Example output](doc/res/myexample.png)
