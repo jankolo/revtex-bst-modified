@@ -1,7 +1,10 @@
 # License information
 The bibtex style file (.bst) in this repository has been derived from the original file `apsrev4-2.bst`, which is part of the revtex latex package obtainable at https://ctan.org/tex-archive/macros/latex/contrib/revtex and distributed under the LaTeX Project Public License. 
 
-The file has been modified to include article titles in the bibliography by default, as well as print an integer number of authors names. Also do this in case of "incollection" entries. 
+The file has been modified so that:
+* **Article Titles:** Updated the style configuration to include full article titles in the bibliography by default.
+* **Author Display:** Modified the logic to ensure an **integer number** (set to 10) of author names are printed before truncation.
+* **Inproceedings Support:** Applied the same formatting rules—specifically title inclusion and author limits—to **`@inproceedings`** entries to ensure consistency across conference papers and journals.
 
 # Usage
 Include the `myapsrev4-2.bst` file in the main directory of your Latex project and specify it as the bibliography style with the Latex command `\bibliographystyle{apsrev4-2}`, see the example below. 
